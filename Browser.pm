@@ -44,3 +44,114 @@ sub run {
 }
 
 1;
+
+__END__
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+Env::Browser - Process environment variable $BROWSER and run web browser.
+
+=head1 SYNOPSIS
+
+ use Env::Browser qw(run);
+ run($uri);
+
+=head1 SUBROUTINES
+
+=over 8
+
+=item B<run($uri)>
+
+ Run browser defined by $BROWSER variable.
+
+=back
+
+=head1 ENVIRONMENT
+
+ $BROWSER variable is defined by L<The BROWSER project|http://www.catb.org/~esr/BROWSER/index.html>.
+
+=head1 EXAMPLE1
+
+ # Pragmas.
+ use strict;
+ use warnings;
+
+ # Modules.
+ use Env::Browser qw(run);
+
+ # Set $BROWSER variable.
+ $ENV{'BROWSER'} = 'echo';
+
+ # Run.
+ run('http://example.com');
+
+ # Output:
+ # http://example.com
+
+=head1 EXAMPLE2
+
+ # Pragmas.
+ use strict;
+ use warnings;
+
+ # Modules.
+ use Env::Browser qw(run);
+
+ # Set $BROWSER variable.
+ $ENV{'BROWSER'} = 'echo %s';
+
+ # Run.
+ run('http://example.com');
+
+ # Output:
+ # http://example.com
+
+=head1 EXAMPLE3
+
+ # Pragmas.
+ use strict;
+ use warnings;
+
+ # Modules.
+ use Env::Browser qw(run);
+
+ # Set $BROWSER variable.
+ $ENV{'BROWSER'} = 'foo:echo %s:bar';
+
+ # Run.
+ run('http://example.com');
+
+ # Output:
+ # http://example.com
+
+=head1 DEPENDENCIES
+
+L<Readonly>.
+
+=head1 SEE ALSO
+
+L<urlview>.
+
+=head1 REPOSITORY
+
+L<https://github.com/tupinek/Env-Browser>
+
+=head1 AUTHOR
+
+Michal Špaček L<mailto:skim@cpan.org>
+
+L<http://skim.cz>
+
+=head1 LICENSE AND COPYRIGHT
+
+BSD license.
+
+=head1 VERSION
+
+0.01
+
+=cut
