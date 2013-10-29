@@ -1,6 +1,7 @@
 0.02
  - Add README file.
  - Add examples/ directory.
+ - Fix test dependencies.
 
 0.01 2013-10-29
  - First version.
