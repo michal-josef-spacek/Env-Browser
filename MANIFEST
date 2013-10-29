@@ -12,6 +12,7 @@ LICENSE
 Makefile.PL
 MANIFEST			This list of files
 META.yml
+SIGNATURE
 t/Env-Browser/00-use.t
 t/Env-Browser/01-version.t
 t/Env-Browser/02-pod_coverage.t

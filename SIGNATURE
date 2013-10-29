@@ -1,0 +1,46 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.70.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 97d7eff66dc180cb920393130a1dcf575f6ab84e Browser.pm
+SHA1 610987cd0fffc90931547666d1f6bc2089e68fa3 Changes
+SHA1 2039384c67092a5dcb07a7ac68cec34f42eadf9a LICENSE
+SHA1 84df4bcbed49bc4e5b451b6b98161d3535210dd2 MANIFEST
+SHA1 c0779dd7080a655bfeb75aa6c2d5e1eb4e935491 META.yml
+SHA1 4e4644315994a8e0f3d4542d2a504eece0b5cbcd Makefile.PL
+SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
+SHA1 2d0fad3bf255f8c1e7e1e34eafccc4f595603ddc inc/Module/Install/Base.pm
+SHA1 f0e01fff7d73cd145fbf22331579918d4628ddb0 inc/Module/Install/Can.pm
+SHA1 7328966e4fda0c8451a6d3850704da0b84ac1540 inc/Module/Install/Fetch.pm
+SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
+SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
+SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
+SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
+SHA1 47cbf515b89857a60786daa7d9b3a4accb61e38b t/Env-Browser/00-use.t
+SHA1 8ac8b4594b945160a5d5ad9b83fed9890fe4c77a t/Env-Browser/01-version.t
+SHA1 620ac6f808559182d338bc51266b1cc3ace86842 t/Env-Browser/02-pod_coverage.t
+SHA1 1b7af52f60809a72051cdb2e35fab4b51736ade7 t/Env-Browser/03-pod.t
+SHA1 031a2b8378f6797d0a782b39ba6878c259271a9c t/Env-Browser/04-run.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJScDgTAAoJEAwa+cf4dLBaScAIANgBGqdHz8P50wj3OSdgfRls
+DJ/7rsm2FXbBFRtZoPVk6O09PjHRl4vBPGiGh6CoSlYDEVY/RVsyun3sP3nxBfdh
+cvT2b92u0GSNnaInu+uLqNVawQoh7+6ZMORTxEjsB5lFSbKixvyW/wL1tJqG5M9w
+6YOJHnmgaInVUirj4TqRPlH++R6cK19lqSQ3OaYUiAuQ+mXdJeQ6+IqX6yzSfTXt
+sXzUjfjlXx/8wFS3jfXWIdMHCuv3vfSgm9ReWePCWvFlsSf7hD8HjUsc0T8/K2zQ
+g3YO4UcIFI09OHEqiR2zvnbCsZxq9ANFY4noXCzHCRjnjJ99kSJD19MMvvTi8IQ=
+=SGjQ
+-----END PGP SIGNATURE-----
