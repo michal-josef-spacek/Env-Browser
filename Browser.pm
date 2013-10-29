@@ -13,7 +13,7 @@ Readonly::Array our @EXPORT_OK => qw(run);
 Readonly::Scalar our $SPACE => q{ };
 
 # Version.
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 # Run browser.
 sub run {
@@ -152,6 +152,6 @@ BSD license.
 
 =head1 VERSION
 
-0.01
+0.02
 
 =cut

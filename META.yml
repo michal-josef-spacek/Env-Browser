@@ -22,6 +22,7 @@ meta-spec:
 name: Env-Browser
 no_index:
   directory:
+    - examples
     - inc
     - t
 requires:
@@ -31,4 +32,4 @@ resources:
   homepage: https://github.com/tupinek/Env-Browser
   license: http://opensource.org/licenses/bsd-license.php
   repository: git://github.com/tupinek/Env-Browser
-version: 0.01
+version: 0.02
