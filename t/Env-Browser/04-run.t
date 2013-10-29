@@ -4,7 +4,7 @@ use warnings;
 
 # Modules.
 use Env::Browser qw(run);
-use Test::More 'tests' => 5;
+use Test::More 'tests' => 6;
 use Test::Output;
 use Test::NoWarnings;
 
@@ -50,4 +50,15 @@ stdout_is(
 	},
 	"URI\n",
 	'Use echo as second command for test with %s.',
+);
+
+# Test.
+delete $ENV{'BROWSER'};
+stdout_is(
+	sub {
+		run('URI');
+		return;
+	},
+	'',
+	'No environment variable.',
 );
