@@ -14,13 +14,13 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 98bf849010b506f0aee790c756c64c0f51b20ab3 Browser.pm
-SHA1 f5a6521d92a927e8b698192b51cb5d442e32a8dd Changes
+SHA1 2c722ed22581aed62c5026cc974745fa5d74af5d Browser.pm
+SHA1 3c79c1a5c6a042cb66583ed2dbce1aa39a0b3041 Changes
 SHA1 2039384c67092a5dcb07a7ac68cec34f42eadf9a LICENSE
 SHA1 d0eae8851a0ed4f047037a857f58ba528d729ef0 MANIFEST
-SHA1 720e96f127823e4a1f57fdd6c3e691c2eaeac52a META.yml
-SHA1 fc9b707dbfe625754f1c453ea3835088de3d564e Makefile.PL
-SHA1 0de4eca09208856fad82aa8eec37c44195c3aaa3 README
+SHA1 5cad96b9f75298588f3f2a58705cc7ccb6750e18 META.yml
+SHA1 3719ec9595dd751bedcd94fd6dd417643e908544 Makefile.PL
+SHA1 fccb4c018b9c7610ab5f23612ed7bc1680d439fa README
 SHA1 a39daf0cdb034d422d6231a9881f6aec018ef9d7 examples/ex1.pl
 SHA1 593f8bfb494f15bd58567e47de322ec17fdf5e0f examples/ex2.pl
 SHA1 e38f1df587b97b70e3c938403f916336a1780dc1 examples/ex3.pl
@@ -33,18 +33,18 @@ SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
 SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
 SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
 SHA1 47cbf515b89857a60786daa7d9b3a4accb61e38b t/Env-Browser/00-use.t
-SHA1 a875772bf01a2ff45b8450bc5ec47271d7fe172c t/Env-Browser/01-version.t
+SHA1 82531e44587eb1ab983a8ccb315cc82d9818e5ad t/Env-Browser/01-version.t
 SHA1 620ac6f808559182d338bc51266b1cc3ace86842 t/Env-Browser/02-pod_coverage.t
 SHA1 1b7af52f60809a72051cdb2e35fab4b51736ade7 t/Env-Browser/03-pod.t
 SHA1 031a2b8378f6797d0a782b39ba6878c259271a9c t/Env-Browser/04-run.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.12 (GNU/Linux)
 
-iQEcBAEBAgAGBQJScKwkAAoJEAwa+cf4dLBaCQ4H/3HlpUXa5UyRFOi6tn9tqcPH
-bd2n5tBd13672ZS4Pzyyaq+ODR5FkroQH0VSED6tEb+4ipzQwv94QGYWaRe75H2l
-9Bw/iy5TIhAmmRNV2xyInpKkpKdoWU3Y6Th2AmWCKv/DizLK0/5M14hIdAy2mRQc
-wj/r4AY4dQrbLTpn46jg9cACTtewLqORnwts86TBVY/p9FACInBhY9LF65mfeejg
-O4ydi8BMdAFNlgjcXUKXhLT4mA1vf8cw14ud0BfdXlqIkjWougarEF8s5lUFsv8V
-Xf8h/dz+z/+XRo7qvCdo9nsGJSnyNf0A+E+uWjhDeCGxUdjVGga643bUL13dbF4=
-=6zOJ
+iQEcBAEBAgAGBQJSeguvAAoJEAwa+cf4dLBah40H+wSKmR1lNkyClMsFhG1hXrvr
+OEBnMXHh2y+f4O/ge6yD13c+B+3EWkz4tQ8p7F6utocF78/3fhr6FpGn04btbqO1
+HNfZPn8tc00lMzXdqUjuxKWnSzSYT8Y3ug+58FNLp7SorZ8HyMgQycOYY0b9Ubm1
+aXZ2va7+r9rtPw/Sj9hRN+py+hNlpNYDZv+fIRQ5Kwls/ZLwGvjwNxFLb+/SzcYb
+SOzus8fBckpX2NCO43fj79o+yL0NpaJrQmpDsCMfeA/WBliJ3kO6L/CkTQl2EKmM
+gepic1b+1Mtiik+yV/zKjIbFocVdnYlsxbhgWiuclghCfILl4RMhZbKiM0NS4Q0=
+=y2PX
 -----END PGP SIGNATURE-----
