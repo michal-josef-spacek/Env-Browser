@@ -1,4 +1,5 @@
 0.03
+ - Fix dependency for Test::Output. Test::Output qw(1.01) is bad.
 
 0.02 2013-10-30
  - Add README file.
