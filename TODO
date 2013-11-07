@@ -9,6 +9,7 @@ Rozliseni systemu: man perlport
 3. Nejak resit error reporty na ruznych systemech. Vypada to, ze tam neni echo,
    ale jiste to rozhodne neni.
 Reseni by bylo mit vlastni Perl echo, ktere bych v testech pouzil.
+Problem byl s Test::Output qw(1.0.1), ale tento je taky mozny.
 4.
 
 Applied
