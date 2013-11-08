@@ -10,6 +10,7 @@ abstract 'Process environment variable $BROWSER and run web browser.';
 author 'Michal Špaček <skim@cpan.org>';
 license 'bsd';
 name 'Env-Browser';
+readme_from 'Browser.pm';
 requires 'Readonly' => 0;
 requires 'perl' => '5.6.0';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
