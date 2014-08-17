@@ -1,6 +1,5 @@
 TODO
 ====
-1. Minimalni verze Perlu?
 2. Je tady problem na Windows, kdyz $BROWSER promenna muze nabyvat promennych
    C:\\foo\bar a pak nezparsuji ani tu promennou.
 Idealni to asi resit tak, ze udelam verzi pro UNIX (jednoducha) a pro Windows
@@ -14,3 +13,5 @@ Problem byl s Test::Output qw(1.0.1), ale tento je taky mozny.
 
 Applied
 =======
+1. Minimalni verze Perlu?
+OK [20140817] skim
