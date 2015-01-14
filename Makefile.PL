@@ -7,7 +7,7 @@ use inc::Module::Install;
 
 # Definition.
 abstract 'Process environment variable $BROWSER and run web browser.';
-author 'Michal Špaček <skim@cpan.org>';
+author 'Michal Spacek <skim@cpan.org>';
 license 'bsd';
 name 'Env-Browser';
 readme_from 'Browser.pm';
