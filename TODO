@@ -5,13 +5,15 @@ TODO
 Idealni to asi resit tak, ze udelam verzi pro UNIX (jednoducha) a pro Windows
 based systemy s Text::DSV->new->parse_line($BROWSER).
 Rozliseni systemu: man perlport
-3. Nejak resit error reporty na ruznych systemech. Vypada to, ze tam neni echo,
-   ale jiste to rozhodne neni.
-Reseni by bylo mit vlastni Perl echo, ktere bych v testech pouzil.
-Problem byl s Test::Output qw(1.0.1), ale tento je taky mozny.
 4.
 
 Applied
 =======
 1. Minimalni verze Perlu?
 OK [20140817] skim
+
+3. Nejak resit error reporty na ruznych systemech. Vypada to, ze tam neni echo,
+   ale jiste to rozhodne neni.
+Reseni by bylo mit vlastni Perl echo, ktere bych v testech pouzil.
+Problem byl s Test::Output qw(1.0.1), ale tento je taky mozny.
+OK [20150114] skim
