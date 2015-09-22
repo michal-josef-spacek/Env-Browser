@@ -13,7 +13,7 @@ Readonly::Array our @EXPORT_OK => qw(run);
 Readonly::Scalar our $SPACE => q{ };
 
 # Version.
-our $VERSION = 0.05;
+our $VERSION = 0.06;
 
 # Run browser.
 sub run {
@@ -159,6 +159,6 @@ L<http://skim.cz>
 
 =head1 VERSION
 
-0.05
+0.06
 
 =cut

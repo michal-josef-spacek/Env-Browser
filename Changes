@@ -1,3 +1,5 @@
+0.06
+
 0.05 2015-09-22T11:18:27+02:00
  - Add 'readme_from' directive to Makefile.PL.
  - Fix LICENSE file.
