@@ -68,7 +68,8 @@ DEPENDENCIES
     Readonly.
 
 SEE ALSO
-    urlview.
+    urlview
+        URL extractor/launcher
 
 REPOSITORY
     <https://github.com/tupinek/Env-Browser>

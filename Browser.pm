@@ -134,7 +134,13 @@ L<Readonly>.
 
 =head1 SEE ALSO
 
-L<urlview>.
+=over
+
+=item L<urlview>
+
+URL extractor/launcher
+
+=back
 
 =head1 REPOSITORY
 
