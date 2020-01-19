@@ -136,7 +136,7 @@ URL extractor/launcher
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/Env-Browser>
+L<https://github.com/michal-josef-spacek/Env-Browser>
 
 =head1 AUTHOR
 
