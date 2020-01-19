@@ -10,7 +10,7 @@ use Readonly;
 Readonly::Array our @EXPORT_OK => qw(run);
 Readonly::Scalar our $SPACE => q{ };
 
-our $VERSION = 0.06;
+our $VERSION = 0.07;
 
 # Run browser.
 sub run {
@@ -151,6 +151,6 @@ L<http://skim.cz>
 
 =head1 VERSION
 
-0.06
+0.07
 
 =cut
