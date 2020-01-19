@@ -15,11 +15,9 @@ ENVIRONMENT
      $BROWSER variable is defined by L<The BROWSER project|http://www.catb.org/~esr/BROWSER/index.html>.
 
 EXAMPLE1
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Env::Browser qw(run);
 
      # Set $BROWSER variable.
@@ -32,11 +30,9 @@ EXAMPLE1
      # http://example.com
 
 EXAMPLE2
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Env::Browser qw(run);
 
      # Set $BROWSER variable.
@@ -49,11 +45,9 @@ EXAMPLE2
      # http://example.com
 
 EXAMPLE3
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Env::Browser qw(run);
 
      # Set $BROWSER variable.

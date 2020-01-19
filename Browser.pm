@@ -1,18 +1,15 @@
 package Env::Browser;
 
-# Pragmas.
 use base qw(Exporter);
 use strict;
 use warnings;
 
-# Modules.
 use Readonly;
 
 # Constants.
 Readonly::Array our @EXPORT_OK => qw(run);
 Readonly::Scalar our $SPACE => q{ };
 
-# Version.
 our $VERSION = 0.06;
 
 # Run browser.
@@ -77,11 +74,9 @@ Env::Browser - Process environment variable $BROWSER and run web browser.
 
 =head1 EXAMPLE1
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Env::Browser qw(run);
 
  # Set $BROWSER variable.
@@ -95,11 +90,9 @@ Env::Browser - Process environment variable $BROWSER and run web browser.
 
 =head1 EXAMPLE2
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Env::Browser qw(run);
 
  # Set $BROWSER variable.
@@ -113,11 +106,9 @@ Env::Browser - Process environment variable $BROWSER and run web browser.
 
 =head1 EXAMPLE3
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Env::Browser qw(run);
 
  # Set $BROWSER variable.
