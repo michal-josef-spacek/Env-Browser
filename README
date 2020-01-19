@@ -4,6 +4,7 @@ NAME
 
 SYNOPSIS
      use Env::Browser qw(run);
+
      run($uri);
 
 SUBROUTINES

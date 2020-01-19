@@ -58,6 +58,7 @@ Env::Browser - Process environment variable $BROWSER and run web browser.
 =head1 SYNOPSIS
 
  use Env::Browser qw(run);
+
  run($uri);
 
 =head1 SUBROUTINES
